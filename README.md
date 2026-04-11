@@ -1,118 +1,106 @@
 # Tim's Portfolio
 
-My personal portfolio website built using React, Vite, and Tailwind CSS.
+Personal portfolio site built with **React 19**, **Vite 6**, **Tailwind CSS 4**, and **i18next** (English, Kazakh, Korean, Russian). Smooth scrolling uses [Lenis](https://lenis.darkroom.engineering/).
 
-<img src="./src/assets/Thumbnail.png" alt="[Thumbnail]"/>
-
-## Table of Contents
+## Table of contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Project structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Scripts](#scripts)
 - [License](#license)
 
 ## Installation
 
-To get started with this project, clone the repository and install the dependencies:
+Clone the repository and install dependencies with **npm** (this matches CI and `package-lock.json`):
 
 ```sh
-git clone https://github.com/tlektessov/tlektessov.github.io
-cd tlektessov.github.io
+git clone https://github.com/ttlektessov/ttlektessov.github.io.git
+cd ttlektessov.github.io
 npm install
 ```
 
 ## Usage
 
-To run the project locally, use the following command:
+Start the dev server:
 
 ```sh
 npm run dev
 ```
 
-This will start the development server and you can view the website at `http://localhost:3000`.
+Vite prints the local URL (by default [http://localhost:5173](http://localhost:5173)). Production builds use `base: "/tlektessov.github.io/"` in `vite.config.js`, so asset URLs match that path on GitHub Pages; `npm run preview` serves `dist/` with the same base. If your Pages URL path ever changes, update `base` and the `homepage` field in `package.json` together.
 
-To build the project for production, use the following command:
-
-```sh
-npm run build
-```
-
-To preview the production build, use the following command:
+Other commands:
 
 ```sh
-npm run preview
+npm run build    # production build → dist/
+npm run preview  # preview dist/
+npm run lint     # ESLint
 ```
 
-## Project Structure
+## Deployment
 
-```filetree
-tlektessov.github.io
+- **GitHub Actions**: pushes to `main` run `.github/workflows/static.yml` (`npm ci`, `npm run build`, deploy `dist/` to GitHub Pages).
+- **Manual deploy** (optional): `npm run deploy` uses [gh-pages](https://github.com/tschaub/gh-pages) to publish `dist/`; `predeploy` runs `build` first.
+
+Live site (`package.json` `homepage`): [https://ttlektessov.github.io/tlektessov.github.io](https://ttlektessov.github.io/tlektessov.github.io)
+
+## Project structure
+
+```text
+ttlektessov.github.io
+├── public
+│   └── locales              # i18next JSON (en, kz, kr, ru)
 ├── src
-│   ├── assets
+│   ├── assets               # images, resume PDF, etc.
 │   ├── components
 │   │   ├── About
-│   │   │   └── About.jsx
 │   │   ├── Contact
-│   │   │   └── Contact.jsx
-│   │   ├── Experience
-│   │   │   ├── Experience.jsx
-│   │   │   └── ExpsContainer.jsx
+│   │   ├── context          # DarkModeContext
+│   │   ├── Experience       # cards, summary, containers
 │   │   ├── Footer
-│   │   │   └── Footer.jsx
-│   │   ├── General
-│   │   │   ├── Button.jsx
-│   │   │   ├── Card.jsx
-│   │   │   ├── ConstructionContainer.jsx
-│   │   │   ├── Container.jsx
-│   │   │   ├── Drawer.jsx
-│   │   │   ├── IconButton.jsx
-│   │   │   └── SectionTag.jsx
-│   │   ├── Header
-│   │   │   └── Header.jsx
+│   │   ├── General          # Button, Card, Container, Drawer, …
+│   │   ├── Header           # Logo, menus, theme/CV/locale controls
 │   │   ├── Hero
-│   │   │   └── Profile.jsx
-│   │   ├── Hooks
-│   │   │   ├── use-scroll.js
-│   │   │   ├── use-windows-size.js
-│   │   │   └── useResponsive.js
+│   │   ├── Hooks            # use-scroll, use-windows-size, useResponsive, useDateFormatter
 │   │   ├── Projects
-│   │   │   ├── Projects.jsx
-│   │   │   └── ProjectsContainer.jsx
 │   │   └── Skills
-│   │       ├── Skills.jsx
-│   │       └── SkillsLogos.jsx
-│   ├── assets.jsx
+│   ├── i18n                 # config, LocaleSwitcher
+│   ├── assets.jsx           # centralized image/document imports
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
-├── .github
-│   └── workflows
-│       └── static.yml
-├── .gitignore
-├── .prettierrc
+├── .github/workflows        # Pages deploy
 ├── eslint.config.js
 ├── index.html
 ├── package.json
-├── README.md
-└── vite.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ## Dependencies
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
-- [Radix UI](https://www.radix-ui.com/)
+Runtime highlights:
+
+- [React](https://react.dev/) & [React DOM](https://react.dev/)
+- [Vite](https://vitejs.dev/) & [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)
+- [Tailwind CSS](https://tailwindcss.com/) & [@tailwindcss/vite](https://tailwindcss.com/docs/installation/using-vite)
+- [i18next](https://www.i18next.com/), [react-i18next](https://react.i18next.com/), [i18next-http-backend](https://github.com/i18next/i18next-http-backend)
+- [Lenis](https://lenis.darkroom.engineering/) (`lenis/react`)
+- [Lucide React](https://lucide.dev/) (icons)
+- [@radix-ui/react-dialog](https://www.radix-ui.com/primitives/docs/components/dialog) (accessible dialog primitives)
 
 ## Scripts
 
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run preview`: Previews the production build.
-- `npm run lint`: Runs ESLint to check for linting errors.
+| Script            | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Vite dev server                      |
+| `npm run build`   | Production build to `dist/`        |
+| `npm run preview` | Local preview of `dist/`           |
+| `npm run lint`    | ESLint                               |
+| `npm run deploy`  | Build (via `predeploy`) + gh-pages   |
 
 ## License
 
