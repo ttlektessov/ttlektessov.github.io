@@ -30,7 +30,7 @@ Start the dev server:
 npm run dev
 ```
 
-Vite prints the local URL (by default [http://localhost:5173](http://localhost:5173)). Production builds use `base: "/tlektessov.github.io/"` in `vite.config.js`, so asset URLs match that path on GitHub Pages; `npm run preview` serves `dist/` with the same base. If your Pages URL path ever changes, update `base` and the `homepage` field in `package.json` together.
+Vite prints the local URL (by default [http://localhost:5173](http://localhost:5173)). This repo is a **user site** (`ttlektessov.github.io`), so production `base` is `/` (root URL). For a **project** site (`https://username.github.io/repo-name/`), set `base` to `/repo-name/` in `vite.config.js` and match `package.json` `homepage`.
 
 Other commands:
 
@@ -45,7 +45,7 @@ npm run lint     # ESLint
 - **GitHub Actions**: pushes to `main` run `.github/workflows/static.yml` (`npm ci`, `npm run build`, deploy `dist/` to GitHub Pages).
 - **Manual deploy** (optional): `npm run deploy` uses [gh-pages](https://github.com/tschaub/gh-pages) to publish `dist/`; `predeploy` runs `build` first.
 
-Live site (`package.json` `homepage`): [https://ttlektessov.github.io/tlektessov.github.io](https://ttlektessov.github.io/tlektessov.github.io)
+Live site: [https://ttlektessov.github.io/](https://ttlektessov.github.io/)
 
 ## Project structure
 
