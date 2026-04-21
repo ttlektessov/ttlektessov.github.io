@@ -6,6 +6,13 @@ export default function ExperienceContainer() {
 
   const experiences = [
     {
+      organization: t("org.forte_title"),
+      position: t("org.forte_position"),
+      startDate: new Date(2025, 4),
+      endDate: t("present"),
+      summary: t("org.forte_summary", {returnObjects: true})
+    },
+    {
       organization: t("org.nodamen_title"),
       position: t("org.nodamen_position"),
       startDate: new Date(2023, 4),

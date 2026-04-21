@@ -37,6 +37,13 @@
   },
   "south_korea": "Seoul, South Korea",
   "org": {
+    "forte_title": "Forte Bank Kazakhstan",
+    "forte_position": "Frontend Developer",
+    "forte_summary": [
+      " Engineered and maintained Forte UI Kit, a React + TypeScript component library, adopted across the frontend team to enforce design consistency and accelerate UI development.",
+      "Developed a custom Commitizen adapter to standardize commit conventions while automating code quality enforcement via ESLint, Prettier, Husky, and lint-staged to eliminate style drift and catch issues pre-commit. (https://www.npmjs.com/package/cz-conventional-changelog-skippable)",
+      "Architected a frontend testing strategy using Vitest and MSW, decoupling frontend development from backend dependencies and reducing regression bugs across feature releases."
+    ],
     "nodamen_title": "NODAMEN",
     "nodamen_position": "Frontend & Mobile Developer",
     "nodamen_summary": [
@@ -79,11 +86,23 @@
     "mindsight_name": "Mindsight: Meditation & Sleep",
     "mindsight_description": "Mental health app that integrates with offline meditation projects. Users can periodically input and then assess their emotions and psychological states, providing insights through graphs. Based on this analysis, the AI recommends personalized meditation content from a library of over 5,000 resources tailored to 21 different emotional states.",
     "mindsight_url": "https://youtu.be/HLyOmjkndec",
-    "mindsight_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"],
+    "mindsight_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ],
     "mindsight_admin_name": "Mindsight Admin Panel",
     "mindsight_admin_description": "Admin panel for the Mindsight app, allowing the staff to manage users, content, and more.",
     "mindsight_admin_url": "https://youtu.be/S3Iaz10erTA",
-    "mindsight_admin_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"]
+    "mindsight_admin_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ]
   },
   "contact_s": {
     "title": "Get in Touch",

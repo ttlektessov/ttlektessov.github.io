@@ -37,6 +37,11 @@
   },
   "south_korea": "Сеул, Оңтүстік Корея",
   "org": {
+    "forte_title": "Forte Bank",
+    "forte_position": "Frontend әзірлеуші",
+    "forte_summary": [
+      "TBU."
+    ],
     "nodamen_title": "NODAMEN",
     "nodamen_position": "Фронтенд және мобильді әзірлеуші",
     "nodamen_summary": [
@@ -79,11 +84,23 @@
     "mindsight_name": "Mindsight: Медитация және ұйқы",
     "mindsight_description": "Психикалық денсаулыққа арналған қосымша, офлайн медитация жобаларымен біріктірілген. Пайдаланушылар өз эмоциялары мен психологиялық жағдайларын мерзімді түрде енгізіп, содан кейін бағалай алады, графиктер арқылы түсініктер береді. Осы талдау негізінде AI 21 түрлі эмоционалдық жағдайға бейімделген 5000-нан астам ресурстар кітапханасынан жеке медитация мазмұнын ұсынады.",
     "mindsight_url": "https://youtu.be/HLyOmjkndec",
-    "mindsight_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"],
+    "mindsight_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ],
     "mindsight_admin_name": "Mindsight әкімші панелі",
     "mindsight_admin_description": "Mindsight қосымшасына арналған әкімші панелі, қызметкерлерге пайдаланушыларды, мазмұнды және басқаларды басқаруға мүмкіндік береді.",
     "mindsight_admin_url": "https://youtu.be/S3Iaz10erTA",
-    "mindsight_admin_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"]
+    "mindsight_admin_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ]
   },
   "contact_s": {
     "title": "Байланыс",
