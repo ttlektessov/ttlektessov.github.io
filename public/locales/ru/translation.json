@@ -37,6 +37,13 @@
   },
   "south_korea": "Сеул, Южная Корея",
   "org": {
+    "forte_title": "Forte Bank",
+    "forte_position": "Фронтенд разработчик",
+    "forte_summary": [
+      "Разработал и поддерживал Forte UI Kit, библиотеку компонентов React + TypeScript, которая была принята командой фронтенд-разработчиков для обеспечения единообразия дизайна и ускорения разработки пользовательских интерфейсов.",
+      "Разработал адаптер Commitizen для стандартизации конвенций коммитов при автоматизации контроля качества кода через ESLint, Prettier, Husky и lint-staged, что позволило избежать дрейфа стиля и выявлять ошибки до коммита. (https://www.npmjs.com/package/cz-conventional-changelog-skippable)",
+      "Разработал стратегию тестирования фронтенда с использованием Vitest и MSW, отделяя разработку фронтенда от зависимостей бэкенда и снижая количество регрессионных ошибок при выпуске новых функций."
+    ],
     "nodamen_title": "NODAMEN",
     "nodamen_position": "Фронтенд и мобильный разработчик",
     "nodamen_summary": [
@@ -79,11 +86,23 @@
     "mindsight_name": "Mindsight: Meditation and Sleep",
     "mindsight_description": "Мобильное приложение для поддержания психического здоровья. Пользователи могут вносить периодическую оценку эмоции и психологического состояния пользователей, для предоставления информации в виде графиков. На основе этого анализа ИИ рекомендует персонализированный контент для медитации из библиотеки, состоящей из более чем 5 000 ресурсов, адаптированных к 21 разным эмоциональным состояниям.",
     "mindsight_url": "https://youtu.be/HLyOmjkndec",
-    "mindsight_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"],
+    "mindsight_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ],
     "mindsight_admin_name": "Mindsight Admin Panel",
     "mindsight_admin_description": "Админ-панель для приложения Mindsight, позволяющая сотрудникам управлять пользователями, контентом, подписками и обратной связью.",
     "mindsight_admin_url": "https://youtu.be/S3Iaz10erTA",
-    "mindsight_admin_technologies": ["Flutter", "Dart", "GetX", "Git", "Figma"]
+    "mindsight_admin_technologies": [
+      "Flutter",
+      "Dart",
+      "GetX",
+      "Git",
+      "Figma"
+    ]
   },
   "contact_s": {
     "title": "Связаться со мной",
