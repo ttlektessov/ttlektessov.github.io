@@ -6,6 +6,7 @@
   "contact": "연락처",
   "download_cv": "CV 다운로드",
   "switch_theme": "다크/라이트 모드",
+  "present": "현재",
   "hero_s": {
     "hello": "안녕하세요,<br />만나서 반갑습니다!",
     "intro": "보낸 사람: 테미를란 틀렉테소프<br />프론트엔드 개발자 @ Forte Bank Kazakhstan",
@@ -36,6 +37,7 @@
     "intro": "제 최근 경험에 대한 간단한 요약:"
   },
   "south_korea": "서울, 대한민국",
+  "kazakhstan": "아스타나, 카자흐스탄",
   "org": {
     "forte_title": "Forte Bank",
     "forte_position": "Frontend Developer",

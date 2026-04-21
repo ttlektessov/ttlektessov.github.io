@@ -6,6 +6,7 @@
   "contact": "Байланыс",
   "download_cv": "CV жүктеу",
   "switch_theme": "Қараңғы/Жарық режим",
+  "present": "Қазіргі уақыт",
   "hero_s": {
     "hello": "Сәлем,<br />танысқаныма қуаныштымын!",
     "intro": "Темірлан Тлектесов<br />Frontend әзірлеуші @ Forte Bank",
@@ -36,6 +37,7 @@
     "intro": "Менің соңғы тәжірибелерімнің қысқаша мазмұны:"
   },
   "south_korea": "Сеул, Оңтүстік Корея",
+  "kazakhstan": "Астана, Қазақстан",
   "org": {
     "forte_title": "Forte Bank",
     "forte_position": "Frontend әзірлеуші",

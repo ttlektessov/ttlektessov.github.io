@@ -6,6 +6,7 @@
   "contact": "Contact",
   "download_cv": "Download CV",
   "switch_theme": "Switch Theme",
+  "present": "Present",
   "hero_s": {
     "hello": "Hey there,<br />nice to meet you!",
     "intro": "From: Temirlan Tlektessov<br />Frontend Developer @ Forte Bank Kazakhstan",
@@ -36,6 +37,7 @@
     "intro": "Here is a quick summary of my most recent experiences:"
   },
   "south_korea": "Seoul, South Korea",
+  "kazakhstan": "Astana, Kazakhstan",
   "org": {
     "forte_title": "Forte Bank Kazakhstan",
     "forte_position": "Frontend Developer",

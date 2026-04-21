@@ -8,13 +8,15 @@ export default function ExperienceContainer() {
     {
       organization: t("org.forte_title"),
       position: t("org.forte_position"),
+      location: t("kazakhstan"),
       startDate: new Date(2025, 4),
       endDate: t("present"),
-      summary: t("org.forte_summary", {returnObjects: true})
+      summary: t("org.forte_summary", { returnObjects: true }),
     },
     {
       organization: t("org.nodamen_title"),
       position: t("org.nodamen_position"),
+      location: t("south_korea"),
       startDate: new Date(2023, 4),
       endDate: new Date(2024, 8),
       summary: t("org.nodamen_summary", { returnObjects: true }),
@@ -22,6 +24,7 @@ export default function ExperienceContainer() {
     {
       organization: t("org.embassy_title"),
       position: t("org.embassy_position"),
+      location: t("south_korea"),
       startDate: new Date(2020, 6),
       endDate: new Date(2021, 11),
       summary: t("org.embassy_summary", { returnObjects: true }),
@@ -29,6 +32,7 @@ export default function ExperienceContainer() {
     {
       organization: t("org.sejong_title"),
       position: t("org.sejong_position"),
+      location: t("south_korea"),
       startDate: new Date(2020, 8),
       endDate: new Date(2020, 11),
       summary: t("org.sejong_summary", { returnObjects: true }),
