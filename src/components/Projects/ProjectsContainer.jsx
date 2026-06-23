@@ -1,10 +1,17 @@
 import Card from "../General/Card";
-import IconButton from "../General/IconButton";
 import SectionTag from "../General/SectionTag";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
 export default function ProjectsContainer({ project, layout }) {
-  const { name, description, url, previewImage, technologies } = project;
+  const {
+    name,
+    description,
+    url,
+    urlLabel,
+    repoUrl,
+    previewImage,
+    technologies,
+  } = project;
   return (
     <Card className="mx-auto flex max-w-6xl flex-col md:w-[85%] md:flex-row">
       {/* Image container */}
@@ -38,12 +45,28 @@ export default function ProjectsContainer({ project, layout }) {
             <SectionTag key={index} label={technology} />
           ))}
         </div>
-        <IconButton
-          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
-          onClick={() => window.open(url, "_blank")}
-        >
-          <ExternalLink />
-        </IconButton>
+        <div className="flex items-center gap-3">
+          <a
+            href={url}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-lg border border-gray-200 px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 dark:border-gray-300 dark:text-gray-700"
+          >
+            {urlLabel || "Visit"}
+            <ExternalLink className="h-4 w-4 stroke-gray-500" />
+          </a>
+          {repoUrl && (
+            <a
+              href={repoUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`${name} on GitHub`}
+              className="inline-flex items-center gap-2 rounded-lg p-1.5 text-gray-500 transition-colors hover:bg-gray-50 hover:text-gray-900"
+            >
+              <Github className="h-5 w-5" />
+            </a>
+          )}
+        </div>
       </div>
     </Card>
   );

@@ -1,0 +1,10 @@
+<svg width="62" height="64" viewBox="0 0 62 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vitestA" x1="6" y1="4" x2="34" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCC72B"/>
+      <stop offset="1" stop-color="#729B1B"/>
+    </linearGradient>
+  </defs>
+  <path d="M60.5 11.4 32.6 61.3a1.5 1.5 0 0 1-2.6 0L1.5 11.4a1.5 1.5 0 0 1 1.5-2.2l28 5a1.5 1.5 0 0 0 .5 0l27.5-5a1.5 1.5 0 0 1 1.5 2.2Z" fill="url(#vitestA)"/>
+  <path d="M43.9 2.4 19.6 21.8a1 1 0 0 0 .1 1.64l6.7 3.9a1 1 0 0 1 .12 1.65L13.2 39.6a1 1 0 0 0 1.18 1.6l24.9-19.8a1 1 0 0 0-.12-1.66l-6.7-3.86a1 1 0 0 1-.1-1.66L45 4.02a1 1 0 0 0-1.1-1.62Z" fill="#FCC72B"/>
+</svg>

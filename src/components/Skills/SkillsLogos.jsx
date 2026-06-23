@@ -1,23 +1,53 @@
 import LogoJavascript from "../../assets/images/logos/icon-javascript.svg";
+import LogoTypescript from "../../assets/images/logos/icon-typescript.svg";
 import LogoReact from "../../assets/images/logos/icon-react.svg";
 import LogoNodejs from "../../assets/images/logos/icon-nodejs.svg";
-import LogoExpress from "../../assets/images/logos/icon-express.svg";
-import LogoExpressLight from "../../assets/images/logos/icon-express-light.svg";
+import LogoSupabase from "../../assets/images/logos/icon-supabase.svg";
 import LogoPostgreSQL from "../../assets/images/logos/icon-postgresql.svg";
-import LogoSass from "../../assets/images/logos/icon-sass.svg";
 import LogoTailwindcss from "../../assets/images/logos/icon-tailwindcss.svg";
+import LogoSass from "../../assets/images/logos/icon-sass.svg";
+import LogoVite from "../../assets/images/logos/icon-vite.svg";
+import LogoVitest from "../../assets/images/logos/icon-vitest.svg";
+import LogoStorybook from "../../assets/images/logos/icon-storybook.svg";
+import LogoFlutter from "../../assets/images/logos/icon-flutter.svg";
+import LogoSwift from "../../assets/images/logos/icon-swift.svg";
 import LogoGit from "../../assets/images/logos/icon-git.svg";
 import { useDarkMode } from "../context/DarkModeContext";
 const skills = [
   {
-    label: "Javascript",
+    label: "React",
+    logo: LogoReact,
+    url: "https://react.dev/",
+  },
+  {
+    label: "TypeScript",
+    logo: LogoTypescript,
+    url: "https://www.typescriptlang.org/",
+  },
+  {
+    label: "JavaScript",
     logo: LogoJavascript,
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    label: "React",
-    logo: LogoReact,
-    url: "https://react.dev/",
+    label: "Tailwindcss",
+    logo: LogoTailwindcss,
+    url: "https://tailwindcss.com/",
+  },
+  {
+    label: "Vite",
+    logo: LogoVite,
+    url: "https://vite.dev/",
+  },
+  {
+    label: "Vitest",
+    logo: LogoVitest,
+    url: "https://vitest.dev/",
+  },
+  {
+    label: "Storybook",
+    logo: LogoStorybook,
+    url: "https://storybook.js.org/",
   },
   {
     label: "Node.js",
@@ -25,10 +55,9 @@ const skills = [
     url: "https://nodejs.org/en",
   },
   {
-    label: "Express.js",
-    logo: LogoExpress,
-    darkModeLogo: LogoExpressLight,
-    url: "https://expressjs.com/",
+    label: "Supabase",
+    logo: LogoSupabase,
+    url: "https://supabase.com/",
   },
   {
     label: "PostgreSQL",
@@ -41,9 +70,14 @@ const skills = [
     url: "https://sass-lang.com/",
   },
   {
-    label: "Tailwindcss",
-    logo: LogoTailwindcss,
-    url: "https://tailwindcss.com/",
+    label: "Flutter",
+    logo: LogoFlutter,
+    url: "https://flutter.dev/",
+  },
+  {
+    label: "Swift",
+    logo: LogoSwift,
+    url: "https://www.swift.org/",
   },
   {
     label: "Git",
@@ -70,7 +104,7 @@ export default function SkillsLogos() {
                   : skill.logo
               }
               alt={skill.label}
-              className="transition-transform duration-300 md:hover:scale-110"
+              className="h-16 transition-transform duration-300 md:hover:scale-110"
             />
           </a>
           <p className="body1">{skill.label}</p>

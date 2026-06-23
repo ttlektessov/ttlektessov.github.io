@@ -8,9 +8,42 @@ export default function Projects() {
   const { t } = useTranslation();
   const MyProjects = [
     {
+      name: t("projects_s.tessera_name"),
+      description: t("projects_s.tessera_description"),
+      url: t("projects_s.tessera_url"),
+      urlLabel: t("projects_s.visit_site"),
+      previewImage: images.TesseraPreview,
+      technologies: t("projects_s.tessera_technologies", {
+        returnObjects: true,
+      }),
+    },
+    {
+      name: t("projects_s.goszakup_name"),
+      description: t("projects_s.goszakup_description"),
+      url: t("projects_s.goszakup_url"),
+      urlLabel: t("projects_s.live_demo"),
+      repoUrl: t("projects_s.goszakup_repo"),
+      previewImage: images.GoszakupPreview,
+      technologies: t("projects_s.goszakup_technologies", {
+        returnObjects: true,
+      }),
+    },
+    {
+      name: t("projects_s.cz_name"),
+      description: t("projects_s.cz_description"),
+      url: t("projects_s.cz_url"),
+      urlLabel: t("projects_s.view_package"),
+      repoUrl: t("projects_s.cz_repo"),
+      previewImage: images.CzPreview,
+      technologies: t("projects_s.cz_technologies", {
+        returnObjects: true,
+      }),
+    },
+    {
       name: t("projects_s.patron_name"),
       description: t("projects_s.patron_description"),
       url: t("projects_s.patron_url"),
+      urlLabel: t("projects_s.watch_video"),
       previewImage: images.PatronWebsite,
       technologies: t("projects_s.patron_technologies", {
         returnObjects: true,
@@ -20,6 +53,7 @@ export default function Projects() {
       name: t("projects_s.mindsight_name"),
       description: t("projects_s.mindsight_description"),
       url: t("projects_s.mindsight_url"),
+      urlLabel: t("projects_s.watch_video"),
       previewImage: images.MindsightMobile,
       technologies: t("projects_s.mindsight_technologies", {
         returnObjects: true,
@@ -29,6 +63,7 @@ export default function Projects() {
       name: t("projects_s.mindsight_admin_name"),
       description: t("projects_s.mindsight_admin_description"),
       url: t("projects_s.mindsight_admin_url"),
+      urlLabel: t("projects_s.watch_video"),
       previewImage: images.MindsightDashboard,
       technologies: t("projects_s.mindsight_admin_technologies", {
         returnObjects: true,

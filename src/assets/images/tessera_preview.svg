@@ -1,0 +1,35 @@
+<svg width="640" height="400" viewBox="0 0 640 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tessBg" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="0.55" stop-color="#3B2A6B"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="tessTile" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C4B5FD" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="20" fill="url(#tessBg)"/>
+  <!-- tessera / mosaic motif -->
+  <g opacity="0.85">
+    <rect x="430" y="70" width="48" height="48" rx="9" fill="url(#tessTile)"/>
+    <rect x="486" y="70" width="48" height="48" rx="9" fill="#8B5CF6" opacity="0.55"/>
+    <rect x="542" y="70" width="48" height="48" rx="9" fill="url(#tessTile)" opacity="0.7"/>
+    <rect x="430" y="126" width="48" height="48" rx="9" fill="#8B5CF6" opacity="0.4"/>
+    <rect x="486" y="126" width="48" height="48" rx="9" fill="url(#tessTile)"/>
+    <rect x="542" y="126" width="48" height="48" rx="9" fill="#8B5CF6" opacity="0.55"/>
+    <rect x="486" y="182" width="48" height="48" rx="9" fill="#8B5CF6" opacity="0.45"/>
+    <rect x="542" y="182" width="48" height="48" rx="9" fill="url(#tessTile)" opacity="0.6"/>
+  </g>
+  <text x="56" y="190" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="6">TESSERA</text>
+  <text x="58" y="232" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="400" fill="#C4B5FD">AI life-design app for iOS</text>
+  <g font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="500" fill="#EDE9FE">
+    <rect x="56" y="286" width="104" height="34" rx="17" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="108" y="308" text-anchor="middle">SwiftUI</text>
+    <rect x="170" y="286" width="118" height="34" rx="17" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="229" y="308" text-anchor="middle">Claude API</text>
+    <rect x="298" y="286" width="120" height="34" rx="17" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="358" y="308" text-anchor="middle">Supabase</text>
+  </g>
+</svg>

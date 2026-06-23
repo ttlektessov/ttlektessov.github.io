@@ -9,17 +9,17 @@
   "present": "현재",
   "hero_s": {
     "hello": "안녕하세요,<br />만나서 반갑습니다!",
-    "intro": "보낸 사람: 테미를란 틀렉테소프<br />프론트엔드 개발자 @ Forte Bank Kazakhstan",
+    "intro": "저는 테미를란 틀렉테소프입니다,<br />제품을 처음부터 끝까지 만드는 프론트엔드 엔지니어입니다 - 프론트는 React와 TypeScript, 뒤에는 Supabase와 서버리스.",
     "hello_mobile": "안녕하세요!",
-    "intro_mobile": "저는 테미를란 틀렉테소프입니다,<br />프론트엔드 개발자 @ Forte Bank Kazakhstan",
-    "projects": "새로운 프로젝트를 받을 준비가 되어 있습니다"
+    "intro_mobile": "저는 테미를란 틀렉테소프입니다,<br />제품을 처음부터 끝까지 만드는 프론트엔드 엔지니어입니다 (React, TypeScript).",
+    "projects": "구직 중 - 새로운 기회를 찾고 있습니다"
   },
   "about_s": {
     "title": "소개",
     "constant": "끈기와 호기심",
-    "intro1": "저는 최근 고려대학교에서 컴퓨터 공학 및 국제학 학위를 취득했습니다. 제 웹 개발자로서의 여정은 NODAMEN에서 시작되었으며, 여기서 웹 서비스의 개발, 최적화 및 버그 수정을 담당했습니다. 이 웹 서비스는 직원들이 큐레이팅한 디지털 전시회를 선보이며, 사용자가 PC, 모바일 기기 및 TV에서 4K 디지털 아트를 즐길 수 있도록 했습니다.",
-    "intro2": "저는 또한 Flutter 개발자로서 모바일 애플리케이션의 콘텐츠 큐레이션을 위한 웹 관리자 페이지 개발, 모바일 애플리케이션의 개발, 최적화 및 버그 수정을 담당했습니다.",
-    "intro3": "제 목표는 프론트엔드 개발 능력을 지속적으로 확장하고 의미 있는 사용자 경험을 창출하는 것입니다. 제가 작업한 프로젝트는 \"프로젝트\" 섹션에서 확인할 수 있습니다!"
+    "intro1": "저는 React와 TypeScript를 전문으로 하는 프론트엔드 엔지니어이며, 고려대학교에서 컴퓨터공학 학위를 받았습니다. 최근에는 Forte Bank의 Core 팀에서 프론트엔드 팀 전체가 채택한 17개 컴포넌트 디자인 시스템을 구축하여 UI 패턴을 표준화하고 기능 개발 속도를 높였습니다.",
+    "intro2": "그 전에는 서울의 NODAMEN에서 웹과 Flutter 제품을 출시했습니다: 멤버십 및 개인화 콘텐츠 페이지, 그리고 PC, 모바일, TV에서 4K 디지털 아트 플랫폼을 관리하는 Flutter 관리자 대시보드입니다.",
+    "intro3": "최근에는 React + Supabase 대시보드부터 Claude 기반 iOS AI 앱까지, 제 제품을 처음부터 끝까지 직접 만들고 출시하고 있습니다. 저는 깔끔하고 접근성 있는 인터페이스와 UI부터 그 뒤의 API까지 전체를 책임지는 것을 중요하게 생각합니다. 그중 몇 가지는 아래 \"프로젝트\" 섹션에서 볼 수 있습니다."
   },
   "info": {
     "title": "마지막으로, 저에 대한 간단한 정보.",
@@ -39,10 +39,12 @@
   "south_korea": "서울, 대한민국",
   "kazakhstan": "아스타나, 카자흐스탄",
   "org": {
-    "forte_title": "Forte Bank",
-    "forte_position": "Frontend Developer",
+    "forte_title": "Forte Bank - Core 팀",
+    "forte_position": "프론트엔드 엔지니어",
     "forte_summary": [
-      "TBU."
+      "8명의 엔지니어가 채택한 17개 컴포넌트 React + TypeScript 디자인 시스템을 구축하여 UI 패턴을 표준화하고 프론트엔드 팀 전반의 기능 개발 속도를 높였습니다.",
+      "커밋 컨벤션을 표준화하기 위해 Commitizen 어댑터를 개발하고, ESLint, Prettier, Husky를 통해 커밋 전 코드 품질을 자동으로 검증했습니다. (https://www.npmjs.com/package/cz-conventional-changelog-skippable)",
+      "Vitest와 MSW로 프론트엔드 테스트 전략을 설계하여 프론트엔드를 백엔드 의존성에서 분리하고 릴리스 간 회귀 버그를 줄였습니다."
     ],
     "nodamen_title": "NODAMEN",
     "nodamen_position": "프론트엔드 및 모바일 개발자",
@@ -69,6 +71,24 @@
   "projects_s": {
     "title": "작업",
     "intro": "제가 작업한 일부 프로젝트:",
+    "live_demo": "라이브 데모",
+    "visit_site": "사이트 방문",
+    "view_package": "npm에서 보기",
+    "watch_video": "데모 영상",
+    "tessera_name": "Tessera",
+    "tessera_description": "성격, 목표, 행동을 바탕으로 맞춤형 일일 계획을 세워주는 iOS용 AI 앱입니다. 퀴즈가 6가지 성격 유형 중 하나를 찾아주면, Claude가 실제 행동에서 학습하며 매일 계획을 생성하고 조정합니다. API 키가 앱에 포함되지 않도록 인증을 거치는 얇은 Vercel 프록시가 뒤를 받칩니다.",
+    "tessera_url": "https://tesseraai.app",
+    "tessera_technologies": ["SwiftUI", "Claude API", "Supabase", "Vercel", "StoreKit 2"],
+    "goszakup_name": "IT 조달 레이더",
+    "goszakup_description": "카자흐스탄 정부 조달 포털에서 공개된 IT 입찰을 선별하고, 관련성으로 점수를 매기고, 새로운 것을 추적하는 대시보드입니다 - 수 시간의 수작업 선별을 몇 분으로 줄여줍니다. Node + Cheerio 스크레이퍼가 GitHub Actions 크론으로 실행되어 row-level security 뒤의 Supabase에 기록합니다.",
+    "goszakup_url": "https://goszakup-radar.vercel.app",
+    "goszakup_repo": "https://github.com/ttlektessov/goszakup-radar",
+    "goszakup_technologies": ["React", "TypeScript", "Supabase", "Node.js", "GitHub Actions"],
+    "cz_name": "cz-conventional-changelog-skippable",
+    "cz_description": "커밋 컨벤션을 팀 전체에 표준화하기 위해 Forte Bank에서 작성한 오픈소스 Commitizen 어댑터로, 단계를 건너뛸 수 있습니다. 매 커밋 전에 코드 품질을 보장하도록 ESLint, Prettier, Husky와 연동됩니다. npm에 게시되었습니다.",
+    "cz_url": "https://www.npmjs.com/package/cz-conventional-changelog-skippable",
+    "cz_repo": "https://github.com/ttlektessov/cz-conventional-changelog-skippable",
+    "cz_technologies": ["Node.js", "Commitizen", "ESLint", "Husky"],
     "patron_name": "Patron 웹사이트",
     "patron_description": "Nodamen 직원이 큐레이팅한 디지털 전시회를 위한 플랫폼으로, 사용자가 PC, 모바일 및 TV에서 4K 디지털 아트를 즐길 수 있도록 합니다.",
     "patron_url": "https://youtu.be/aoQ_UkyYj5c",

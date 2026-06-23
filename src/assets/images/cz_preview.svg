@@ -1,0 +1,30 @@
+<svg width="640" height="400" viewBox="0 0 640 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="czBg" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1021"/>
+      <stop offset="1" stop-color="#1B2240"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="20" fill="url(#czBg)"/>
+  <!-- terminal window -->
+  <rect x="48" y="56" width="544" height="288" rx="14" fill="#0E1326" stroke="#2A3354" stroke-width="1.5"/>
+  <rect x="48" y="56" width="544" height="40" rx="14" fill="#161C36"/>
+  <circle cx="74" cy="76" r="6" fill="#FF5F57"/>
+  <circle cx="96" cy="76" r="6" fill="#FEBC2E"/>
+  <circle cx="118" cy="76" r="6" fill="#28C840"/>
+  <text x="320" y="81" font-family="monospace" font-size="14" fill="#7C86AB" text-anchor="middle">git cz</text>
+  <g font-family="monospace" font-size="16">
+    <text x="74" y="142" fill="#22D3EE">?</text>
+    <text x="96" y="142" fill="#E2E8F0">Select the type of change:</text>
+    <text x="96" y="178" fill="#34D399">&#8250; feat:</text>
+    <text x="170" y="178" fill="#94A3B8">A new feature</text>
+    <text x="96" y="208" fill="#64748B">  fix:</text>
+    <text x="170" y="208" fill="#64748B">A bug fix</text>
+    <text x="96" y="238" fill="#64748B">  docs:</text>
+    <text x="170" y="238" fill="#64748B">Documentation only</text>
+    <text x="74" y="286" fill="#FBBF24">↩</text>
+    <text x="96" y="286" fill="#E2E8F0">skip optional steps</text>
+    <text x="96" y="286" fill="#475569" dx="200">(Enter)</text>
+  </g>
+  <text x="74" y="324" font-family="Poppins, Arial, sans-serif" font-size="15" font-weight="600" fill="#7DD3FC">cz-conventional-changelog-skippable · npm</text>
+</svg>

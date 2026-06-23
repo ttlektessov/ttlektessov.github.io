@@ -9,24 +9,24 @@
   "present": "Present",
   "hero_s": {
     "hello": "Hey there,<br />nice to meet you!",
-    "intro": "From: Temirlan Tlektessov<br />Frontend Developer @ Forte Bank Kazakhstan",
+    "intro": "I'm Temirlan Tlektessov,<br />a Front-End Engineer who builds products end-to-end - React and TypeScript on the front, Supabase and serverless behind them.",
     "hello_mobile": "Hey there!",
-    "intro_mobile": "I'm Temirlan Tlektessov,<br />Frontend Developer @ Forte Bank Kazakhstan",
-    "projects": "Available for new projects"
+    "intro_mobile": "I'm Temirlan Tlektessov,<br />a Front-End Engineer (React, TypeScript) who builds products end-to-end.",
+    "projects": "Open to work - available for new roles"
   },
   "about_s": {
     "title": "About me",
     "constant": "Resilience and curiosity",
-    "intro1": "I'm a recent grad with a degree in Computer Science & Engineering and International Studies from Korea University. My journey as a web developer began at NODAMEN, where I was responsible for the development, optimization, and bug fixing of web services. These web services showcased digital exhibitions curated by staff, allowing users to enjoy 4K digital artworks on PCs, mobile devices, and TVs.",
-    "intro2": "I was also a Flutter developer responsible for developing web admin page for the content curation on mobile application, as well as development, optimizing & bug fixing of the mobile application.",
-    "intro3": "My goal is to continually expand my abilities in front-end development and create impactful user experiences. You can see the projects I've worked on in the \"Projects\" section!"
+    "intro1": "I'm a front-end engineer specializing in React and TypeScript, with a degree in Computer Science & Engineering from Korea University. Most recently I was on the Core team at Forte Bank, where I built a 17-component design system adopted across the frontend team - standardizing UI patterns and speeding up feature work.",
+    "intro2": "Earlier, at NODAMEN in Seoul, I shipped web and Flutter products: membership and personalized-content pages, plus a Flutter admin dashboard for managing a 4K digital-art platform across PC, mobile, and TV.",
+    "intro3": "Lately I've been building and shipping my own products end-to-end - from a React + Supabase dashboard to an AI-powered iOS app driven by Claude. I care about clean, accessible interfaces and owning the whole slice, from the UI down to the API behind it. A few of these live in the \"Projects\" section below."
   },
   "info": {
     "title": "Finally, some quick bits about me.",
     "one": "B.E. in Computer Science & Engineering",
     "two": "FC Barcelona fan since 2013",
     "three": "Double Majored in International Studies",
-    "four": "Video games lover"
+    "four": "Love video games"
   },
   "skills_s": {
     "title": "Skills",
@@ -39,10 +39,10 @@
   "south_korea": "Seoul, South Korea",
   "kazakhstan": "Astana, Kazakhstan",
   "org": {
-    "forte_title": "Forte Bank",
-    "forte_position": "Frontend Developer",
+    "forte_title": "Forte Bank - Core Team",
+    "forte_position": "Front-End Engineer",
     "forte_summary": [
-      " Engineered and maintained Forte UI Kit, a React + TypeScript component library, adopted across the frontend team to enforce design consistency and accelerate UI development.",
+      "Built a 17-component React + TypeScript design system adopted by 8 engineers, standardizing UI patterns and accelerating feature development across the frontend team.",
       "Developed a custom Commitizen adapter to standardize commit conventions while automating code quality enforcement via ESLint, Prettier, Husky, and lint-staged to eliminate style drift and catch issues pre-commit. (https://www.npmjs.com/package/cz-conventional-changelog-skippable)",
       "Architected a frontend testing strategy using Vitest and MSW, decoupling frontend development from backend dependencies and reducing regression bugs across feature releases."
     ],
@@ -71,6 +71,36 @@
   "projects_s": {
     "title": "Work",
     "intro": "Some of the projects I worked on:",
+    "live_demo": "Live demo",
+    "visit_site": "Visit site",
+    "view_package": "View on npm",
+    "watch_video": "Watch demo",
+    "tessera_name": "Tessera",
+    "tessera_description": "An AI-powered life-design app for iOS that builds a personalized daily plan around your personality, goals, and behavior. A quiz maps you to one of six personality types, then Claude generates and adapts each day's plan - learning from what you actually do via autonomous tool-use. Backed by a thin, auth-gated Vercel proxy so the API key never ships inside the app.",
+    "tessera_url": "https://tesseraai.app",
+    "tessera_technologies": [
+      "SwiftUI",
+      "Claude API",
+      "Supabase",
+      "Vercel",
+      "StoreKit 2"
+    ],
+    "goszakup_name": "IT Procurement Radar",
+    "goszakup_description": "A dashboard that screens Kazakhstan's government procurement portal for open IT lots, scores them by relevance, and tracks what's new - turning hours of manual screening into minutes. A Node + Cheerio scraper runs on a GitHub Actions cron and writes to Supabase behind row-level security.",
+    "goszakup_url": "https://goszakup-radar.vercel.app",
+    "goszakup_repo": "https://github.com/ttlektessov/goszakup-radar",
+    "goszakup_technologies": [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "Node.js",
+      "GitHub Actions"
+    ],
+    "cz_name": "cz-conventional-changelog-skippable",
+    "cz_description": "An open-source Commitizen adapter I authored at Forte Bank to standardize commit conventions team-wide, with a skippable prompt flow. Wired into ESLint, Prettier, and Husky to enforce code quality before every commit. Published on npm.",
+    "cz_url": "https://www.npmjs.com/package/cz-conventional-changelog-skippable",
+    "cz_repo": "https://github.com/ttlektessov/cz-conventional-changelog-skippable",
+    "cz_technologies": ["Node.js", "Commitizen", "ESLint", "Husky"],
     "patron_name": "Patron Website",
     "patron_description": "A platform for digital exhibitions curated by Nodamen's staff, allowing users to enjoy 4K digital artworks on PC, mobile and TV.",
     "patron_url": "https://youtu.be/aoQ_UkyYj5c",
