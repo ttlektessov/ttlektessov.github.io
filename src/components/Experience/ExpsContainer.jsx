@@ -9,8 +9,8 @@ export default function ExperienceContainer() {
       organization: t("org.forte_title"),
       position: t("org.forte_position"),
       location: t("kazakhstan"),
-      startDate: new Date(2025, 4),
-      endDate: t("present"),
+      startDate: new Date(2025, 3),
+      endDate: new Date(2026, 4),
       summary: t("org.forte_summary", { returnObjects: true }),
     },
     {
